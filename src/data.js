@@ -8,7 +8,7 @@ const pt = {
     linkedin: "https://www.linkedin.com/in/nedymarschuabe",
     github: "https://github.com/nedymarschuabe",
     summary:
-      "Analista e Desenvolvedor de Sistemas com mais de 5 anos de experiência, responsável por integrações críticas usadas por hospitais da rede DASA, com alta estabilidade e redução de falhas. Atuo principalmente em ambientes Oracle e no segmento de saúde, hoje com sustentação N2 do sistema MV: desenvolvimento de rotinas em PL/SQL, análise de requisitos, correção de incidentes e otimização de consultas. Também construo soluções com Oracle Database, SQL, PL/SQL, Node.js, Python e React, participando de integrações, automações de processos e melhorias de performance em aplicações corporativas.",
+      "Analista e Desenvolvedor de Sistemas com mais de 5 anos de experiência, atualmente responsável pela sustentação N2 do sistema MV na Clínica Kozma, atuando com Oracle, PL/SQL, análise de requisitos, correção de incidentes e otimização de consultas. Já atuei no desenvolvimento de integrações críticas utilizadas por hospitais da rede DASA, com alta estabilidade e redução de falhas. Também construo soluções com Oracle Database, SQL, PL/SQL, Node.js, Python e React, participando de integrações, automações de processos e melhorias de performance em aplicações corporativas.",
   },
 
   coreSkills: [
@@ -139,7 +139,7 @@ const en = {
     linkedin: "https://www.linkedin.com/in/nedymarschuabe",
     github: "https://github.com/nedymarschuabe",
     summary:
-      "Systems Analyst and Developer with 5+ years of experience, responsible for critical integrations used by DASA network hospitals, with high stability and reduced failures. I work mainly in Oracle environments and the healthcare sector, currently handling N2 support for the MV system: developing PL/SQL routines, requirements analysis, incident resolution, and query optimization. I also build solutions with Oracle Database, SQL, PL/SQL, Node.js, Python, and React, contributing to integrations, process automation, and performance improvements in corporate applications.",
+      "Systems Analyst and Developer with 5+ years of experience, currently responsible for N2 support of the MV system at Clínica Kozma, working with Oracle, PL/SQL, requirements analysis, incident resolution, and query optimization. I have previously developed critical integrations used by DASA network hospitals, with high stability and reduced failures. I also build solutions with Oracle Database, SQL, PL/SQL, Node.js, Python, and React, contributing to integrations, process automation, and performance improvements in corporate applications.",
   },
 
   coreSkills: [

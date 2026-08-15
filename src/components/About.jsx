@@ -1,9 +1,9 @@
-import { profile, coreSkills } from "../data";
+export default function About({ data }) {
+  const { profile, coreSkills, labels } = data;
 
-export default function About() {
   return (
     <section className="section" id="about">
-      <h2>Sobre</h2>
+      <h2>{labels.about}</h2>
       <p className="about__summary">{profile.summary}</p>
 
       <div className="chips">

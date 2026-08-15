@@ -1,9 +1,14 @@
-import { profile } from "../data";
 import profilePhoto from "../assets/profile.png";
 
-export default function Hero() {
+export default function Hero({ data, lang, onToggleLang }) {
+  const { profile, labels } = data;
+
   return (
     <header className="hero">
+      <button className="lang-toggle" onClick={onToggleLang} type="button">
+        {lang === "pt" ? "EN" : "PT"}
+      </button>
+
       <img className="hero__avatar" src={profilePhoto} alt={profile.name} />
 
       <h1>{profile.name}</h1>
@@ -20,6 +25,10 @@ export default function Hero() {
           GitHub
         </a>
       </div>
+
+      <a className="hero__cta" href={labels.pdfFile} download>
+        {labels.downloadPdf}
+      </a>
     </header>
   );
 }

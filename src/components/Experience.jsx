@@ -1,9 +1,9 @@
-import { experiences } from "../data";
+export default function Experience({ data }) {
+  const { experiences, labels } = data;
 
-export default function Experience() {
   return (
     <section className="section" id="experience">
-      <h2>Experiência</h2>
+      <h2>{labels.experience}</h2>
       <ol className="timeline">
         {experiences.map((job) => (
           <li className="timeline__item" key={`${job.company}-${job.period}`}>

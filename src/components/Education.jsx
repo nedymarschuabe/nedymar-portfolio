@@ -1,13 +1,13 @@
-import { education, certifications } from "../data";
+export default function Education({ data }) {
+  const { education, certifications, labels } = data;
 
-export default function Education() {
   return (
     <section className="section" id="education">
-      <h2>Formação e certificações</h2>
+      <h2>{labels.education}</h2>
 
       <div className="grid-two">
         <div>
-          <h3 className="subheading">Formação acadêmica</h3>
+          <h3 className="subheading">{labels.academicEducation}</h3>
           <ul className="plain-list">
             {education.map((item) => (
               <li key={item.school}>
@@ -20,7 +20,7 @@ export default function Education() {
         </div>
 
         <div>
-          <h3 className="subheading">Certificações</h3>
+          <h3 className="subheading">{labels.certifications}</h3>
           <ul className="plain-list">
             {certifications.map((cert) => (
               <li key={cert}>{cert}</li>

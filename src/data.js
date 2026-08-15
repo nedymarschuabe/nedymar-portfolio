@@ -4,11 +4,11 @@ export const profile = {
   subtitle: "Oracle PL/SQL · DBA Júnior · Node.js · Python · React",
   location: "Passo Fundo, Rio Grande do Sul, Brasil",
   phone: "54 99684-2203",
-  email: "nedymar97@hotmail.com",
+  email: "nedymar.schuabe@outlook.com",
   linkedin: "https://www.linkedin.com/in/nedymarschuabe",
   github: "https://github.com/nedymarschuabe",
   summary:
-    "Analista e Desenvolvedor de Sistemas com mais de 5 anos de experiência em desenvolvimento, sustentação e integração de sistemas, atuando principalmente em ambientes Oracle e no segmento de saúde. Atualmente trabalho com o sistema MV, realizando sustentação N2, desenvolvimento de rotinas em PL/SQL, análise de requisitos, correção de incidentes, otimização de consultas e integrações entre sistemas. Possuo experiência no desenvolvimento de soluções utilizando Oracle Database, SQL, PL/SQL, Node.js, Python e React, participando da criação de integrações, automações de processos e melhorias de performance em aplicações corporativas.",
+    "Analista e Desenvolvedor de Sistemas com mais de 5 anos de experiência, responsável por integrações críticas usadas por hospitais da rede DASA, com alta estabilidade e redução de falhas. Atuo principalmente em ambientes Oracle e no segmento de saúde, hoje com sustentação N2 do sistema MV: desenvolvimento de rotinas em PL/SQL, análise de requisitos, correção de incidentes e otimização de consultas. Também construo soluções com Oracle Database, SQL, PL/SQL, Node.js, Python e React, participando de integrações, automações de processos e melhorias de performance em aplicações corporativas.",
 };
 
 export const coreSkills = [

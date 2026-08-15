@@ -10,17 +10,12 @@
 }
 
 .hero__avatar {
-  width: 92px;
-  height: 92px;
+  width: 128px;
+  height: 128px;
   margin: 0 auto 1.25rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #8e6fff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #0f1115;
+  object-fit: cover;
+  border: 3px solid var(--border);
 }
 
 .hero h1 {

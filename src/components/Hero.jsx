@@ -1,21 +1,14 @@
 import { profile } from "../data";
+import profilePhoto from "../assets/profile.png";
 
 export default function Hero() {
-  const initials = profile.name
-    .split(" ")
-    .map((n) => n[0])
-    .join("")
-    .slice(0, 2);
-
   return (
     <header className="hero">
-      <div className="hero__avatar" aria-hidden="true">
-        {initials}
-      </div>
+      <img className="hero__avatar" src={profilePhoto} alt={profile.name} />
+
       <h1>{profile.name}</h1>
       <p className="hero__title">{profile.title}</p>
       <p className="hero__subtitle">{profile.subtitle}</p>
-      <p className="hero__location">📍 {profile.location}</p>
 
       <div className="hero__links">
         <a href={`mailto:${profile.email}`}>{profile.email}</a>
